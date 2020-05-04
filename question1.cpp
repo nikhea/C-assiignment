@@ -18,7 +18,9 @@ int main()
    cout << "num5 : ";
    cin >> num5;
    sum = num1 + num2 + num3 + num4 + num5;
+   average = sum / 5;
    cout << "Sum = " << sum << endl;
+
    cout << "Average = " << average << endl;
    return 0;
 }
